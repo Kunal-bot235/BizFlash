@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    tools:context=".ChoiceActivity">
+
+    <TextView
+        android:id="@+id/BizFlash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BizFlash⚡"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_details"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/button_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="114dp"
+            android:backgroundTint="#A020F0"
+            android:text="Customer" />
+
+        <Button
+            android:id="@+id/button_Shop_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_customer"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="114dp"
+            android:backgroundTint="#A020F0"
+            android:text="Shop-Owner" />
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#FFEB3B"
+        android:padding="12dp"
+        android:text="Logout"
+        android:textColor="#000000" />
+
+</LinearLayout>

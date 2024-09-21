@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514734607639",
+    "project_id": "bizflash-login",
+    "storage_bucket": "bizflash-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514734607639:android:47158e94cccc5ff5acfb52",
+        "android_client_info": {
+          "package_name": "com.example.bizflash_login_firestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCge5DbgWOQxxggJWovh8OIFroxI1RdZoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
