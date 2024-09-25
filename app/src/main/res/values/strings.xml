@@ -1,3 +1,10 @@
+
 <resources>
-    <string name="app_name">BizFlash_login_firestore</string>
+<!-- Other string resources -->
+<string name="app_name">BizFlash_login_firestore</string>
+<string-array name="shop_types">
+    <item>Grocery</item>
+    <item>Clothing</item>
+    <item>Salon/Parlor</item>
+</string-array>
 </resources>
